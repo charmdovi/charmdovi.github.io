@@ -6,6 +6,38 @@
 -->
 <html>
 	<head>
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0SHME4CEN2"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-0SHME4CEN2');
+	</script>
+	<script type="module">
+  	// Import the functions you need from the SDKs you need
+  	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+  	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+  	// TODO: Add SDKs for Firebase products that you want to use
+  	// https://firebase.google.com/docs/web/setup#available-libraries
+
+  	// Your web app's Firebase configuration
+  	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  	const firebaseConfig = {
+    	apiKey: "AIzaSyDHAa7NwbtxNx6wog4ksaMS4f8SYzwnCZM",
+    	authDomain: "charmdovi-blog.firebaseapp.com",
+    	projectId: "charmdovi-blog",
+    	storageBucket: "charmdovi-blog.appspot.com",
+    	messagingSenderId: "474589559387",
+    	appId: "1:474589559387:web:02da3eb896dac1cc321d7e",
+    	measurementId: "G-NHZ8W1JS78"
+ 	 };
+
+  	// Initialize Firebase
+  	const app = initializeApp(firebaseConfig);
+  	const analytics = getAnalytics(app);
+	</script>
 		<title>charmdovi portfolio website</title>
 		<meta charset="utf-8" />
 		<meta name="charmdovi" content="페이지 설명" />
